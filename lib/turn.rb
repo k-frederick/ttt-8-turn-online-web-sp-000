@@ -35,7 +35,7 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
   if valid_move?(board, index)
-    
+    update_array_at_with(board)
   end
 
 
