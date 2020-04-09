@@ -38,6 +38,4 @@ def turn(board)
     move(board, index, player = "X")
     display_board(board)
   end
-
-
 end
